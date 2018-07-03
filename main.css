@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 400px;
+  margin: 0 auto;
+  grid-column-gap: 5%;
+}
+
+.grid div {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.grid div:nth-child(1) {
+  background-color: blue;
+}
+
+.grid div:nth-child(2) {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin: 0 auto 5%;
+  padding-bottom: 5px;
+}
