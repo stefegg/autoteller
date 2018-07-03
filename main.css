@@ -20,6 +20,10 @@
   background-color: red;
 }
 
+.container {
+  width: 80%;
+}
+
 h1 {
   text-align: center;
   width: 80%;
@@ -27,3 +31,11 @@ h1 {
   margin: 0 auto 5%;
   padding-bottom: 5px;
 }
+
+.responsive {
+  width: 20%;
+}
+
+/* .image-container img {
+  width: 50%;
+} */
