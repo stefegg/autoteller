@@ -29,3 +29,53 @@ for (thisItem in myImages){
   gallery.appendChild(newImage);
   count = count + 1;
 };
+
+var count = 0;
+var helloWorld = ["hello world!"]
+for (thisItem in helloWorld) {
+  console.log(helloWorld[count]);
+  count = count +1;
+}
+
+function puts(str) {
+  console.log(str);
+}
+
+function shred(paper) {
+  var shreddedPaper = paper.split('');
+  console.log(shreddedPaper);
+}
+
+// then do ssn = 123456789
+//
+// then shredder(ssn) and you'll see it in action
+
+// write a function that takes a string and outputs it to the
+// console
+
+// myString = "Lalalalalalalal"
+//
+// function outPut() {
+//   console.log("myString");
+// }
+
+// write a function that performs some type of math operation
+
+
+// var number = [2]
+
+function calculate(number) {
+  return number * 3;
+}
+
+// local vs. global variables
+
+var global = 100;
+
+function calc(){
+  var local = 50;
+  console.log(global);
+  console.log(local);
+}
+
+//local can not be used outside of the {} brackets!
